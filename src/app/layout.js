@@ -32,9 +32,8 @@ export default async function RootLayout({ children }) {
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
-        <header className="flex items-center justify-between gap-4 p-6 bg-amber-400 w-full">
+        <header className="flex items-center justify-between gap-4 p-6 dark:bg-black w-full border-b border-b-stone-600">
           <div className="flex flex-grip items-center gap-4">
-            <h1 className="text-2xl uppercase">Pizzas Flash</h1>
             <Link href='/'>INICIO </Link>
             <Link href='/producto'>PRODUCTOS </Link>
             <Link href='/contacto'>CONTACTANOS </Link>
